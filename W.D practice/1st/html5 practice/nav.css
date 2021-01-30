@@ -1,0 +1,28 @@
+nav{
+    height: 50px;
+    line-height: 30px;
+    background-color: lightpink;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+    color: darkkhaki;
+}
+nav > ul > li{
+    float: left;
+}
+nav li:hover{
+    background-color: lightskyblue;
+}
+nav a{
+    text-decoration: none;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: blanchedalmond;
+    padding: 0;
+}
+nav > ul > li:hover > ul{
+    display: block;
+}
