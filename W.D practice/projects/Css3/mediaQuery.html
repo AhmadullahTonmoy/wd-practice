@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+
+        }
+        .food{
+            border: 1px solid red;
+            border-radius: 30px ;
+            margin: 10px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px) {
+            .container {
+                flex-direction: column;
+            }
+            .container .food {
+                background-color: rosybrown;
+            }
+        }
+        @media (min-width: 1200px) {
+            .container .food{
+                background-color: skyblue;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="food">
+           <img src="images/OIP.jpg" alt="">
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni iste itaque hic, alias obcaecati. Perspiciatis deleniti debitis fugiat libero?</p>
+       </div>
+       <div class="food">
+           <img src="images/OIP.jpg" alt="">
+           <p>Soluta praesentium laboriosam maxime repudiandae nemo, obcaecati illo eaque sit odit impedit culpa quasi consequuntur dignissimos cum possimus quo quidem?</p>
+       </div>
+       <div class="food">
+           <img src="images/OIP.jpg" alt="">
+           <p>Ex, eius? Dolor, ipsa, enim nostrum reiciendis pariatur praesentium obcaecati magnam voluptas cum, maiores molestiae necessitatibus. Quos nemo consequuntur libero!</p>
+       </div>
+       <div class="food">
+           <img src="images/OIP.jpg" alt="">
+           <p>Recusandae blanditiis eaque temporibus animi voluptatem maxime veniam quae cupiditate fuga. Animi aut, quae nihil at laborum cupiditate illum rerum.</p>
+       </div>
+       <div class="food">
+           <img src="images/OIP.jpg" alt="">
+           <p>Corrupti excepturi tempora adipisci laudantium minus explicabo nobis numquam architecto corporis, beatae officiis provident, assumenda magnam, quisquam pariatur ex consectetur?</p>
+       </div>
+       <div class="food">
+           <img src="images/OIP.jpg" alt="">
+           <p>Pariatur, repudiandae dolore? Fugit vero velit maxime molestias molestiae ut? Voluptates, nulla quis? Nam molestiae sunt unde atque consectetur reprehenderit?</p>
+       </div>
+    </div>
+</body>
+</html>
